@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/adebayoileri/Javascript-Hackathon-Starter-Kit/issues"
   },
-  "homepage": "https://github.com/adebayoileri/Javascript-Hackathon-Starter-Kit#readme"
+  "homepage": "https://github.com/adebayoileri/Javascript-Hackathon-Starter-Kit#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
