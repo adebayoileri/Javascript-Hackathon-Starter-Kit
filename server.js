@@ -1,6 +1,9 @@
 var express = require('express');
+var routes = require('./src/routes/index');
 
 var app = express();
+
+app.use('/api/v1', routes)
 
 app.get('/', function(req, res){
     res.status(200).json({
@@ -9,3 +12,5 @@ app.get('/', function(req, res){
 })
 
 app.listen(4001, function(){console.log('App started on port 4001')});
+
+module.exports = app;
